@@ -1,0 +1,25 @@
+#!/usr/bin/env bash
+uglifyjs \
+	"public_html/javascripts/foundation/jquery.js" \
+	"public_html/javascripts/foundation/jquery.cookie.js" \
+	"public_html/javascripts/foundation/jquery.event.move.js" \
+	"public_html/javascripts/foundation/jquery.event.swipe.js" \
+	"public_html/javascripts/foundation/jquery.foundation.accordion.js" \
+	"public_html/javascripts/foundation/jquery.foundation.alerts.js" \
+	"public_html/javascripts/foundation/jquery.foundation.buttons.js" \
+	"public_html/javascripts/foundation/jquery.foundation.clearing.js" \
+	"public_html/javascripts/foundation/jquery.foundation.forms.js" \
+	"public_html/javascripts/foundation/jquery.foundation.joyride.js" \
+	"public_html/javascripts/foundation/jquery.foundation.magellan.js" \
+	"public_html/javascripts/foundation/jquery.foundation.mediaQueryToggle.js" \
+	"public_html/javascripts/foundation/jquery.foundation.navigation.js" \
+	"public_html/javascripts/foundation/jquery.foundation.orbit.js" \
+	"public_html/javascripts/foundation/jquery.foundation.reveal.js" \
+	"public_html/javascripts/foundation/jquery.foundation.tabs.js" \
+	"public_html/javascripts/foundation/jquery.foundation.tooltips.js" \
+	"public_html/javascripts/foundation/jquery.foundation.topbar.js" \
+	"public_html/javascripts/foundation/jquery.placeholder.js" \
+	"public_html/javascripts/angular.js" \
+	"public_html/javascripts/foundation/app.js" \
+-c \
+-o "public_html/javascripts/app-min.js"

@@ -1,0 +1,18 @@
+// Your custom settings file to override Foundation defaults
+@import "settings";
+
+// Comment out this import if you are customizing you imports below
+@import "foundation";
+
+// SVG webicons
+@import "../stylesheets/fc-webicons.css";
+
+// symbol fonts icons
+@import "../stylesheets/general_foundicons.css";
+@import "../stylesheets/accessibility_foundicons.css";
+
+
+[class*="foundicon-"] {
+	vertical-align: text-bottom;
+}
+
