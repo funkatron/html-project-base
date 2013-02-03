@@ -1,6 +1,5 @@
 @import url(../stylesheets/fc-webicons.css);
 @import url(../stylesheets/general_foundicons.css);
-@import url(../stylesheets/accessibility_foundicons.css);
 /* Requires: normalize.css */
 /* Global Reset & Standards ---------------------- */
 /* line 5, ../../../../../.rvm/gems/ruby-1.9.3-p327/gems/zurb-foundation-3.2.5/scss/foundation/common/_globals.scss */
@@ -6034,7 +6033,7 @@ table.hide-for-medium {
     margin: 0;
   }
 }
-/* line 15, ../sass/app.scss */
+/* line 13, ../sass/app.scss */
 [class*="foundicon-"] {
   vertical-align: text-bottom;
 }
