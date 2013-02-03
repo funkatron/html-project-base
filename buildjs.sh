@@ -20,6 +20,5 @@ uglifyjs \
 	"public_html/javascripts/foundation/jquery.foundation.topbar.js" \
 	"public_html/javascripts/foundation/jquery.placeholder.js" \
 	"public_html/javascripts/angular.js" \
-	"public_html/javascripts/foundation/app.js" \
 -c \
--o "public_html/javascripts/app-min.js"
+-o "public_html/javascripts/requirements-min.js"
