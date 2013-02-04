@@ -29,8 +29,12 @@
 	<div class="row" ng-controller="FirstController">
 		<div class="twelve columns">
 			<h2><span class="foundicon-star"></span> There are {{data.records.length}} records</h2>
+
+			<form>
+				<input type="text" placeholder="search" ng-model="query">
+			</form>
 			<ul class="block-grid two-up">
-				<li ng-repeat="record in data.records" >
+				<li ng-repeat="record in data.records | filter:query">
 					<h3>{{record.title}}</h3>
 					<p>{{record.description}}</p>
 				</li>
