@@ -28,13 +28,13 @@
 
 	<div class="row" ng-controller="FirstController">
 		<div class="twelve columns">
-			<h2><span class="foundicon-star"></span> There are {{data.items.length}} items</h2>
-			<div class="row" ng-repeat="item in data.items">
-				<div class="panel">
-					<h3>{{item.name}} <span class="foundicon-heart"></span></h3>
-					<p>{{item.description}}</p>
-				</div>
-			</div>
+			<h2><span class="foundicon-star"></span> There are {{data.records.length}} records</h2>
+			<ul class="block-grid two-up">
+				<li ng-repeat="record in data.records" >
+					<h3>{{record.title}}</h3>
+					<p>{{record.description}}</p>
+				</li>
+			</ul>
 		</div>
 	</div>
 
