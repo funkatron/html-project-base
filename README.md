@@ -2,6 +2,15 @@
 
 This is a skeleton for HTML/JS/CSS apps. I made it for me. If other people want to use it, cool!
 
+## What's it do?
+
+Provides you a very basic system for building web sites and browser-based apps. It includes:
+
+* The Foundation CSS framework and AngularJS
+* Gives you a basic web server you can start and stop with simple CLI commands
+* Uses Compass to auto-compile SASS into CSS as you make changes
+* Includes a script to combine and minify your JavaScript
+
 ## Stuff it uses
 
 * [Foundation w/ Compass/SCSS](http://foundation.zurb.com/docs/compass.php)
